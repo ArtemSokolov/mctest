@@ -18,7 +18,7 @@ where
 * `-it --rm` runs the container interactively and cleans up after exiting
 * `-e USER=$USER` makes your USER environmental variable visible inside the container
 * `-v /var/run/docker.sock:/var/run/docker.sock` enables Docker to spawn "sister" containers
-* `-v /home/$USER/work:/work` sets up a persistent working directory for all containers
+* `-v /home/$USER/work:/home/$USER/work` sets up a persistent working directory for all containers
 
 **Running tests**
 
